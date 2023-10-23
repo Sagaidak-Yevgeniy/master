@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0;
+}
+
+ul li{
+    list-style: none;
+}
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Header
+
+
+*/
+body{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background: rgb(68, 64, 64);
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+}
+
+.wrapper{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 0.3em; /* 0 5px*/
+}
+
+header{
+    position: sticky;
+    background: rgb(35, 62, 138);
+    max-height: 60px;
+}
+
+header>.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo{
+    margin: 0 0 0 0.3em; /* 0 0 0 5px*/
+}
+
+.main-menu{
+    display: flex;
+    height: 60px;
+    margin: 0 0 0 1.25em; /*0 0 0 20px*/
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.menu-item{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.625em 0 0.625em;  /*0 10px 0 10px */
+}
+
+.menu-img{
+    height: 1.675rem; /*30px*/
+    width: 1.675rem;  /*30px*/                
+}
+
+.text-menu{
+    color: #fff;
+  font-size: 1.375rem; /*22px*/
+  font-weight: 300;
+  margin: 0 0 0 0.3em; /*5px*/
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Left Menu
+
+*/
+
+.left-wrapper{
+    max-width: 350px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.left-menu-img{
+    color: #fff ;
+}
