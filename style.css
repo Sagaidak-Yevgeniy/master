@@ -196,6 +196,9 @@ body {
 
 .history {
     margin-top: 170px;
+    background: url(img/bg2.jpg) no-repeat;
+    background-size: cover;
+    height: 82vh;
 }
 
 .history-title {
@@ -205,15 +208,47 @@ body {
     width: 440px;
     text-align: center;
     margin-left: 164px;
+    color: antiquewhite;
     
 }
 
 .history-desc {
-    color: #656363;
+    color: #776c6c;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     width: 440px;
     text-align: center;
     margin-left: 164px;
     margin-top: 21px;
+}
+
+.history-images {
+    position: relative;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-1 {
+    position: absolute;
+    z-index: 0;
+    top: 80px;
+    left: -785px;
+}
+
+.images-2 {
+    position: absolute;
+    z-index: 999;
+    top: 30px;
+    left: -517px;
+    
+}
+
+.images-3 {
+    position: absolute;
+    z-index: 999;
+    top: 265px;
+    left: -316px;
 }
