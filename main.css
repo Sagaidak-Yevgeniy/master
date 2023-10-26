@@ -78,11 +78,28 @@ header>.main-wrapper{
     width:100%;
 }
 
-h1{
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 58px;
+.head-title {
+    color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
+
+.head-midle {
+    width: 170px;
+    height: 33px;
+    background: #4e4e4e;
+    padding: 0 5px;
+}
+
+.head-foot {
+    margin-left: 47px;
+    
+}
+
+
 
 .main-board{
     background: url('images/board.jpg')no-repeat fixed;
