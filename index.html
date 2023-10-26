@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Main.css">
     <title>3D print</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="header">
     <div class="main-wrapper">
         <img class="logo" src="img/3d-printer-print-logo-05-.jpg">
+        <form>
+            <input type="text" name="text" class="Search" placeholder="Поиск...">
+            <button class="button-Search">Поиск</button>
+        </form>
         <nav class="main-menu">
             <ul class="menu-list-header">
-                <li><a>|</a></li>
-                <li><a href="#home-link">Home</a>
-                    <ul class="extra-Menu">
-                        <li><a href="#My account">Мой аккаунт</a></li>
-                        <li><a href="#Main menu">Главное меню</a></li>
-                    </ul>
+                <li><a href="#home-link">Home &bigtriangledown;</a>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Main Menu</a></li>
+                </ul>
                 </li>
-                <li><a>|</a></li>
-                <li><a href="#Galery">Galery</a></li>
-                <li><a>|</a></li>
-                <li><a href="#Models">Models</a></li>
-                <li><a>|</a></li>
-                <li><a href="#Buy">Buy</a></li>
-                <li><a>|</a></li>
-                <li><a href="#Sale">Sale</a></li>
-                <li><a>|</a></li>
+                <li><a href="#Galery">Galery &bigtriangledown;</a>
+                 <ul>
+                    <li><a href="#">My Galery</a></li>
+                    <li><a href="#">Online Galery</a></li>
+                </ul>
+                </li>
+                <li><a href="#Models">Models &bigtriangledown;</a>
+                <ul>
+                    <li><a href="#">My Models</a></li>
+                    <li><a href="#">All Models</a></li>
+                    <li><a href="#">Buy Models</a></li>
+                    <li><a href="#">Sale Models</a></li>
+                </ul>
+                </li>
             </ul>
         </nav>
     </div>
-    <form>
-        <input type="text" name="text" class="Search" placeholder="Поиск...">
-        <button class="button-Search">Поиск</button>
-    </form>
+
     </header>
 </body>
 </html>
