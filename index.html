@@ -11,25 +11,56 @@
 <body>
     <header>
         <div class="main-wrapper">
-            <nav class="main-menu">
-                <ul>
-                    <li><a href="#about-us">О компании</a></li>
-                    <li><a href="#main-menu">Главная</a></li>
-                    <li><a href="#personal-account">Личный кабинет</a></li>
-                </ul>
-            </nav>
+            <img class="logo" src="src/logo.png">
+                    <div class="search">
+                    <form action="search" method="get">
+                        <input name="search" placeholder="Поиск" type="search">
+                            <button type="submit">Поиск</button>
+                    </form>   
+                    </div>
+                    <div class="header-menu">
+                        <ul>    
+                            <li><a href="#basket">Корзина</a></li>
+                        </ul>
+                    </div>
         </div>
     </header>
-    <Main>
-        <section class="seacrh" id="home-link">
+    <main>
+        <section class="main-board">
             <div class="main-wrapper">
-                <nav class="shop">
-                    <a1>Поиск</a1>
-                        <input type="search">
+                <div class="products">
+                    <div class="main-wrapper">
+                    <h2>Популярные товары</h2>
+                        <img class="product" src="src/5090.jpg">
+                            <h3>RTX 5090</h3>
+                            <h3>Описание</h3>
+                            <h3>Есть в наличии</h3>
+                            <a href="buy">Купить</a>
+                            <img class="product" src="src/5090.jpg">
+                            <h3>RTX 5090</h3>
+                            <h3>Описание</h3>
+                            <h3>Есть в наличии</h3>
+                            <a href="buy">Купить</a>
+                            <img class="product" src="src/5090.jpg">
+                            <h3>RTX 5090</h3>
+                            <h3>Описание</h3>
+                            <h3>Есть в наличии</h3>
+                            <a href="buy">Купить</a>
+                        </div>
+                    </div>
             </div>
-                <a href="#popular">Популярные товары</a>
-                <a href="#new-products">Новинки</a>
-                <a href="#sales">Акции</a>
-
-
+        </section>
+    </main>
+    <footer>
+        <section class="main-footer">
+            <div class="footer">
+                <div class="main-wrapper">
+                    <h4>Адрес</h4> 
+                    <h4>+87653406644</h4>
+                    <a href="social-media">Соцсеть</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
 </html>
