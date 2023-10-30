@@ -234,21 +234,22 @@ body {
 .images-1 {
     position: absolute;
     z-index: 0;
-    top: 80px;
-    left: -785px;
+    top: 134px;
+    left: 801px;
 }
 
 .images-2 {
     position: absolute;
     z-index: 999;
-    top: 30px;
-    left: -517px;
+    top: 96px;
+    left: 1056px;
     
 }
 
 .images-3 {
     position: absolute;
     z-index: 999;
-    top: 265px;
-    left: -316px;
+    top: 244px;
+    left: 1300px;
 }
+
