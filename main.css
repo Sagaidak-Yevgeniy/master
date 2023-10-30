@@ -18,6 +18,7 @@ body{
 .logo{
     width: 70px;
     height: 55px;
+    position: relative;
 }
 
 header{
@@ -30,12 +31,14 @@ header{
 
 header>.main-wrapper{
     display:flex;
+    justify-content:first baseline;
     align-items:center;
     height:100%;
 }
 
 .main-menu{
     margin-left:auto;
+    
 }
 
 .main-menu>ul>li{
@@ -62,6 +65,13 @@ header>.main-wrapper{
 .main-menu>ul>li:hover::before{
     opacity:1;
     width:100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 800px;
 }
 
 h1{
@@ -339,4 +349,49 @@ color:#FFFFFF
     width: 65px;
     height: 65px;
     justify-content: flex-start;
+} 
+
+.product > img {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 220px;
+    height: 170px;
+}
+
+
+.container{
+    display:flex;
+    flex-wrap:wrap ;
+}
+.product{
+    width: 450px;
+    height: 300px;
+    margin: 25px;
+    padding: 10px;
+    border:1px solid #ccc;
+    text-align: center;
+}
+.product img{
+    max-width:70px;
+}
+
+.price{
+    color:#FF5733;
+    font-weight:bold;
+}
+
+button{
+    background-color: #3498db;
+    color: #fff;
+    border:none;
+    padding:5px 10px;
+    margin:5px 0;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #2776ab;
 }
