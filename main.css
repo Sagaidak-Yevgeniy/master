@@ -6,22 +6,27 @@
     font-family: sans-serif;
     list-style: none;
 }
-body{
-    height: 100vh;
+body::before{
+    content:'';
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+    z-index: -1;
     background: url(img/fon.png) no-repeat;
     background-size: cover;
-    background-position: center;
+    filter: blur(3px);
+}
+body::after{
+    height: 100%;
+    width: 100%;
+    content:'';
+    top: 0;left: 0;
+    background-color: rgba(0, 0, 0, .5);
 }
 .header{
     display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     padding: 5px;
     background-color: rgb(255, 198, 128);
-    height: 50px;
+    height: 80px;
     box-shadow: 0px 0px 20px black;
     z-index: 12;
 }
@@ -33,7 +38,7 @@ header > .main-wrapper {
     border-radius: 7px;
 }
 .main-wrapper {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -43,6 +48,7 @@ header > .main-wrapper {
     font-size: 20px;
     font-family: 'Roboto';
     margin-left: 50px;
+    z-index: 5;
 }
 .main-menu > ul > li > a{
     text-decoration: none;
@@ -54,7 +60,7 @@ header > .main-wrapper {
     transition: .5s;
     display: flex;
     align-items: center;
-    max-width: 70px;
+    max-width: 100px;
 }
 .logo:hover{
     transform: scale(1.05);
@@ -109,11 +115,45 @@ nav ul li ul{
     background: rgb(208, 0, 0);
     display: none;
 }
+nav ul li:hover > ul {
+    display: initial;
+}
 nav ul li ul li{
     padding: 2px;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-nav ul li:hover > ul {
+nav ul li ul li ul{
+    left: 118px;
+    top: 15px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images>a>img{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 198, 128, 1);
+}
+.images>a>span{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+.images ul{
+    display: flex;
+    
+    width: 120px;
+    background: rgb(208, 0, 0);
+    display: none;
+}
+.images:hover>ul{
     display: initial;
 }
