@@ -88,14 +88,15 @@ header>.main-wrapper{
 }
 
 .head-midle {
-    width: 170px;
-    height: 33px;
+    width: 179px;
+    height: 100px;
     background: #4e4e4e;
     padding: 0 5px;
+    margin-left: 63px;
 }
 
 .head-foot {
-    margin-left: 47px;
+    margin-left: 88px;
     
 }
 
@@ -148,7 +149,7 @@ header>.main-wrapper{
     color:white;
     font-family: 'Open Sans',sans-serif;
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 65px;
     text-shadow: white;
 }
@@ -220,15 +221,6 @@ a {
     display: flex;
     margin-top:center;
 }
-
-
-
-
-
-
-
-
-
 
 .search-container{
     display: flex;
