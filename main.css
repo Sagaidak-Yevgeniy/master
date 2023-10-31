@@ -357,15 +357,21 @@ color:#FFFFFF
 }
 
 .card {
-    width: 220px;
+    width: 250px;
     height: 170px;
 }
-
 
 .container{
     display:flex;
     flex-wrap:wrap ;
 }
+
+.groot{
+    width: 340px;
+    height: 170px;
+    
+}
+
 .product{
     width: 450px;
     height: 300px;
@@ -375,7 +381,7 @@ color:#FFFFFF
     text-align: center;
 }
 .product img{
-    max-width:70px;
+    max-width:200px;
 }
 
 .price{
@@ -394,4 +400,54 @@ button{
 
 button:hover{
     background-color: #2776ab;
+}
+
+.body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0d66cc;
+}
+
+.login-container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c0c0c0;
+    border-radius: 5px;
+    box-shadow:0 0 5px rgba(0, 0, 0,0.2);
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 10px
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #2776ab;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #444444;
 }
