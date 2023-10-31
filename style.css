@@ -194,33 +194,13 @@ body {
     
 }
 
-.history {
+.shop-bg {
     margin-top: 170px;
     background: url(img/bg2.jpg) no-repeat;
     background-size: cover;
     height: 82vh;
 }
 
-.history-title {
-    font-family: 'Tinos', serif;
-    font-size: 55px;
-    font-weight: 400;
-    width: 440px;
-    text-align: center;
-    margin-left: 164px;
-    color: antiquewhite;
-    
-}
-
-.history-desc {
-    color: #776c6c;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    width: 440px;
-    text-align: center;
-    margin-left: 164px;
-    margin-top: 21px;
-}
 
 .history-images {
     position: relative;
@@ -252,4 +232,5 @@ body {
     top: 244px;
     left: 1300px;
 }
+
 
