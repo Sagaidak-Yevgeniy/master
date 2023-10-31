@@ -78,6 +78,11 @@ header>.main-wrapper{
     width:100%;
 }
 
+.Namber{
+    color: #ccc;
+    margin-left: 1400px;
+}
+
 .head-title {
     color: #fff;
     position: relative;
@@ -88,19 +93,21 @@ header>.main-wrapper{
 }
 
 .head-midle {
-    width: 179px;
-    height: 100px;
+    width: 330px;
+    height: 58px;
     background: #4e4e4e;
     padding: 0 5px;
     margin-left: 63px;
 }
 
-.head-foot {
-    margin-left: 88px;
-    
+.Head-text{
+    margin-left: 45px;
 }
 
-
+.head-foot {
+    margin-left: 163px;
+    
+}
 
 .main-board{
     background: url('images/board.jpg')no-repeat fixed;
@@ -248,8 +255,6 @@ a {
 #search-button:hover {
     background-color: #0056b3;
 }
-
-
 
 
 
