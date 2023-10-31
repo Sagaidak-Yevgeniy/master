@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Sans Serif", sans-serif;
+  box-sizing: border-box;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+img {
+  vertical-align: top;
+}
+
+/*
+  
+  #DE8126
+  #C7612B
+  #DE4B26
+  #6dc757
+  #D42E24
+  
+  */
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #292929;
+  height: auto;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.main-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  position: sticky;
+  z-index: 10;
+  height: 65px;
+  top: 0;
+  margin: 13px 10px 0 10px;
+}
+
+header > .main-wrapper {
+  background-color: #d42e24;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.logo {
+  height: 65px;
+  width: 65px;
+  text-align: center;
+  margin-right: 3px;
+}
+
+.main-menu {
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0 0 0 8px;
+}
+
+.main-nav > li > div > a {
+  color: inherit;
+}
+
+.main-nav > li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #bb322a;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.main-nav > li > div {
+  color: white;
+  font-size: 0.6875rem; /*11*/
+  font-weight: 400;
+  width: 50px;
+  height: 50px;
+  line-height: 1.81em;
+}
+
+.main-nav > li > div h1 {
+  font-size: 1.875rem;
+  color: #bb322a;
+  font-weight: 600;
+}
+
+.main-nav > li:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 10px 0 rgba(2, 2, 2, 0.6);
+  background: white;
+  transition-duration: 0.5s;
+}
+
+.main-nav > li:hover > div > a {
+  color: #bb322a;
+}
+
+fieldset {
+  display: flex;
+  background: #fff;
+  height: 50px;
+  flex: 0 1 650px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+fieldset > button {
+  border-radius: 7px;
+  font-size: 0.9375rem;
+  width: 55px;
+  height: 44px;
+  background: #f1aa11;
+  margin: 3px;
+  font-weight: 300;
+  color: #fff;
+  border: 1px solid #f1aa11;
+}
+
+fieldset > button:hover {
+  background: #ffffff;
+  color: #f1aa11;
+}
+
+fieldset > input {
+  align-self: center;
+  height: 100%;
+  margin: 15px;
+  flex: 1 1 250px;
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basket
+
+
+
+*/
+
+.basket-item {
+  display: flex;
+  align-items: flex-end;
+  background: #fff;
+  border: #bb322a 3px solid;
+  border-radius: 5px;
+  margin: 1.875rem 0 0 0; /* 30 0 0 0 */
+}
+
+.basket-img {
+  height: 190px;
+  padding: 3px;
+  margin: 0 0.625rem 0 0; /* 0 10 0 0*/
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 1.25rem; /* 20 */
+  font-weight: 550;
+  margin: 0.15em 0 0.25em 0; /* 3 0 5 0 */
+  letter-spacing: 0.05em; /* 1 */
+}
+
+.about {
+  text-decoration: underline;
+  font-size: 0.875rem; /* 14 */
+}
+
+.score {
+  display: flex;
+}
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Footer
+
+
+*/
+footer {
+  margin-top: 50px;
+  background: #353333;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  align-self: center;
+}
+
+.icons > a > i {
+  margin: 0.83em 0.83em;
+  font-size: 1.5rem;
+  color: #f1aa11;
+}
+
+.icons > a {
+  height: auto;
+  width: auto;
+}
+
+.icons > a > i:hover {
+  color: #e0d9d9;
+  transition-duration: 0.3s;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.875rem;
+  letter-spacing: 0.1333em;
+  margin: 0.6em;
+}
+
+.end-text {
+  color: #fff;
+  margin: 0.6em 0 0.3125em 0;
+}
+
+.end-text > a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.end-text > a:hover {
+  color: #f1aa11;
+  text-decoration: none;
+}
