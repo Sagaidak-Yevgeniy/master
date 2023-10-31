@@ -199,11 +199,14 @@ body {
     background: url(img/bg2.jpg) no-repeat;
     background-size: cover;
     height: 82vh;
+    
 }
 
 
 .history-images {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .history-holder {
@@ -211,26 +214,25 @@ body {
     justify-content: space-between;
 }
 
-.images-1 {
-    position: absolute;
-    z-index: 0;
-    top: 134px;
-    left: 801px;
+.shop-header {
+    color: azure;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+
 }
 
-.images-2 {
-    position: absolute;
-    z-index: 999;
-    top: 96px;
-    left: 1056px;
-    
+.shop-holder {
+    display: flex ;
+    justify-content: space-around;
+    margin-top: 90px;
 }
 
-.images-3 {
-    position: absolute;
-    z-index: 999;
-    top: 244px;
-    left: 1300px;
+.shop-item {
+    border: #708090 solid 9px;
+    border-radius: 8px 58px;
+    background-color: azure;
+    text-align: center;
 }
 
 
