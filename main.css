@@ -93,6 +93,11 @@ input{
     background-color:rgb(30, 9, 100);
     color: white;
 }
+
+
+
+
+
 .header nav ul li{
     position: relative;
     float: left;
@@ -127,33 +132,30 @@ nav ul li ul li ul{
     left: 118px;
     top: 15px;
 }
+
+
+
 .images{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.images>a>img{
-    display: flex;
-    width: 300px;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255, 198, 128, 1);
 }
-.images>a>span{
-    font-size: 20px;
-    padding: 5px;
-    color: rgb(255, 255, 255);
-    display: block;
-    background-color: black;
+.img-3d-printer{
+    width: 350px;
+    margin-top: 50px;
+    background: linear-gradient(to top, #000000, #ffffff6c ,#ffffff00)
+}
+.block-text-under-img{
+    width: 350px;
     text-align: center;
 }
-.images ul{
-    display: flex;
-    
-    width: 120px;
-    background: rgb(208, 0, 0);
-    display: none;
+.text-under-img{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 24px;
+    display: block;
 }
-.images:hover>ul{
-    display: initial;
+.sub-menu{
+    display: none;
 }
