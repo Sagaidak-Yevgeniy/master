@@ -237,6 +237,10 @@ Basket
   margin: 1.875rem 0 0 0; /* 30 0 0 0 */
 }
 
+.basket-info {
+  align-self: center;
+}
+
 .basket-img {
   height: 190px;
   padding: 3px;
@@ -258,7 +262,47 @@ Basket
 
 .score {
   display: flex;
+  align-items: center;
+  margin: 2.625rem 0 0.625rem 0; /* 10 0 10 0 */
 }
+
+.score > i {
+  color: #f1aa11;
+}
+
+.score > h1 {
+  margin: 0 0.375rem 0 0.375rem; /* 0 5 0 6*/
+}
+
+.score > span {
+  font-size: 0.74rem; /* 12*/
+}
+
+.coast-item {
+  font-size: 1.375rem; /* 22 */
+  font-weight: 600;
+  margin: 1.136em 0 0 0; /*25 0 0 0 */
+}
+
+.basket-button {
+  background-color: #bb322a;
+  border-radius: 5px;
+  margin: 1.25rem; /* 20 */
+  height: 40px;
+  width: 130px;
+  text-align: center;
+  padding: 0.687rem; /* 11 */
+  color: #fff;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+}
+
+.right-block {
+}
+
 /*
 
 
