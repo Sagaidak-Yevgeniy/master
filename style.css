@@ -228,11 +228,49 @@ body {
     margin-top: 90px;
 }
 
+
+
 .shop-item {
-    border: #708090 solid 9px;
+    border: #1d3636 solid 9px;
     border-radius: 8px 58px;
-    background-color: azure;
+    background-color: #DCDCDC;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    
 }
 
 
+
+
+.shop-title {
+color: #1d3636;
+font-size: 20px;
+margin-bottom: 5px;
+
+}
+
+.shop-desc {
+    color: #1d3636;
+    margin-bottom: 2px;
+
+}
+
+.shop-button {
+    margin: 15px 15px;
+}
+
+.shop-btn {
+    background-color: #1d3636;
+    font-size: 20px;
+    text-decoration: none;
+    color: #DCDCDC;
+    padding: 10px 15px;
+    transition-duration: 0.8s;
+    transition-property: all;
+    
+}
+
+.shop-btn:hover {
+    background-color: #416e6e;
+}
