@@ -16,9 +16,11 @@ body{
 }
 
 .logo{
-    width: 70px;
-    height: 55px;
-    position: relative;
+    width: 90px;
+    height: 65px;
+    float: left;
+    margin-left: 140px;
+    margin-top: auto;
 }
 
 header{
@@ -31,14 +33,15 @@ header{
 
 header>.main-wrapper{
     display:flex;
-    justify-content:first baseline;
     align-items:center;
     height:100%;
 }
 
 .main-menu{
     margin-left:auto;
-    
+    float: right;
+    margin-right: 140px;
+    margin-top:18px;
 }
 
 .main-menu>ul>li{
@@ -65,13 +68,6 @@ header>.main-wrapper{
 .main-menu>ul>li:hover::before{
     opacity:1;
     width:100%;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    margin-left: 800px;
 }
 
 h1{
@@ -350,26 +346,18 @@ color:#FFFFFF
     height: 65px;
     justify-content: flex-start;
 } 
-
-.product > img {
-    width: 100%;
-    height: 100%;
-}
-
-.card {
-    width: 250px;
-    height: 170px;
+.groot{
+    width: 210px;
+    height: 175px;
+    margin-left: 100px;
+    
 }
 
 .container{
     display:flex;
     flex-wrap:wrap ;
-}
+    justify-content: space-between;
 
-.groot{
-    width: 340px;
-    height: 170px;
-    
 }
 
 .product{
@@ -380,13 +368,86 @@ color:#FFFFFF
     border:1px solid #ccc;
     text-align: center;
 }
+
 .product img{
-    max-width:200px;
+    max-width:70px;
+}
+
+.card {
+    width: 250px;
+    height: 170px;
 }
 
 .price{
-    color:#FF5733;
+    color:#ff2f00;
     font-weight:bold;
+}
+
+.deedpool{
+    width: 210px;
+    height: 175px;
+    margin-left: 100px;
+}
+
+
+
+.product2{
+    width: 400px;
+    height: 300px;
+    margin: 25px;
+    padding: 10px;
+    border:1px solid #ccc;
+    text-align: center;
+}
+
+.product img{
+    max-width:70px;
+}
+
+.card2 {
+    width: 250px;
+    height: 170px;
+}
+
+.price2{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.cat{
+    width: 210px;
+    height: 175px;
+    margin-left: 100px;
+    
+}
+
+.container3{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: end;
+}
+
+.product3{
+    width: 470px;
+    height: 350px;
+    margin: 25px;
+    padding: 10px;
+    border:1px solid #ccc;
+    text-align: center;
+}
+
+.card3 {
+    width: 250px;
+    height: 170px;
+}
+
+.price3{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.product img{
+    max-width:200px;
 }
 
 button{
@@ -402,52 +463,3 @@ button:hover{
     background-color: #2776ab;
 }
 
-.body{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #0d66cc;
-}
-
-.login-container{
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #c0c0c0;
-    border-radius: 5px;
-    box-shadow:0 0 5px rgba(0, 0, 0,0.2);
-}
-
-h2{
-    text-align: center;
-}
-
-form{
-    text-align: center;
-}
-
-label{
-    display: block;
-    margin-top: 10px
-}
-
-input{
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-button{
-    width: 100%;
-    padding: 10px;
-    background-color: #000000;
-    color: #2776ab;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #444444;
-}
