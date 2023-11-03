@@ -101,7 +101,7 @@ header {
   z-index: 10;
   height: 65px;
   top: 0;
-  margin: 13px 10px 50px 10px;
+  margin: 13px 10px 25px 10px;
 }
 
 header > .main-wrapper {
@@ -228,12 +228,19 @@ Basket
 
 */
 
-.basket-field {
-  margin: 0 1.25em; /* 20 */
+.basket-logo {
+  color: #fff;
+  text-align: center;
+  font-size: 2.1187em; /* 35 */
+  text-decoration: underline 0.057em;
 }
+
+.basket-field {
+  margin: 1.25em 1.25em 2.6em 1.25em; /* 20 20 40 20*/
+}
+
 .basket-item {
   display: flex;
-  align-items: flex-end;
   background: #fff;
   border: #bb322a 3px solid;
   border-radius: 5px;
@@ -241,10 +248,13 @@ Basket
 }
 
 .basket-info {
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .basket-img {
+  align-self: center;
   height: 190px;
   padding: 3px;
   margin: 0 0.625em 0 0; /* 0 10 0 0*/
@@ -254,7 +264,7 @@ Basket
 .name-basket {
   font-size: 1.25rem; /* 20 */
   font-weight: 550;
-  margin: 0.15em 0 0.25em 0; /* 3 0 5 0 */
+  margin: 0.25em 0 0.25em 0; /*5 0 5 0*/
   letter-spacing: 0.05em; /* 1 */
 }
 
@@ -266,7 +276,8 @@ Basket
 .score-basket {
   display: flex;
   align-items: center;
-  margin: 2.625em 0 0.625em 0; /* 10 0 10 0 */
+  flex: 1 0 auto;
+  margin: 0.625em 0 0.625em 0; /*10 0 10 0*/
 }
 
 .score-basket > i {
@@ -284,7 +295,7 @@ Basket
 .coast-item {
   font-size: 1.375rem; /* 22 */
   font-weight: 600;
-  margin: 1.136em 0 0 0; /*25 0 0 0 */
+  margin: 0 0 0.227em 0.227em; /*0 0 5 5 */
 }
 
 .basket-button {
@@ -296,10 +307,12 @@ Basket
   text-align: center;
   padding: 0.687em; /* 11 */
   color: #fff;
+  transition-duration: 0.2s;
 }
 
 .basket-button:hover {
   background-color: #d42e24;
+  transition-duration: 0.4s;
 }
 
 .number {
@@ -316,10 +329,12 @@ Basket
   margin: 0 0.62em 0 0.625em; /* 0 10 0 10 */
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .num-button:hover {
   background-color: #a8a1a1;
+  transition-duration: 0.3s;
 }
 
 .num-main {
@@ -332,6 +347,7 @@ Basket
 }
 
 .right-block {
+  align-self: flex-end;
 }
 
 /*
@@ -380,8 +396,14 @@ Basket
 
 */
 
+.shop-logo {
+  color: #fff;
+  text-align: center;
+  font-size: 2.1187em; /* 35 */
+  text-decoration: underline 0.057em;
+}
+
 .shop {
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
