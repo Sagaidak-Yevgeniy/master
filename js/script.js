@@ -17,7 +17,7 @@ setInterval(() => {
   // checkedSelectRadio();
   document.getElementById(`r${i}`).checked = true;
   i++;
-}, 2300);
+}, 3300);
 
 const items = document.getElementsByTagName("items");
 console.log(items);
