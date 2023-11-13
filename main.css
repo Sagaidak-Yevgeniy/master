@@ -89,7 +89,6 @@ header>.main-wrapper{
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .head-midle {
@@ -256,8 +255,17 @@ a {
     background-color: #0056b3;
 }
 
+.shope{
+    background: url(images/board\ register.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+}
 
-
+.text-shope{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
 
 
 
