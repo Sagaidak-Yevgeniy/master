@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    margin: 0px 166px;
+
+}
+
+.header {
+    background: url(img/bg3.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-item {
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+    margin-right: 30px;
+    transition: color 0.5s linear;
+}
+
+.nav-item:hover {
+    color: #708090;
+
+}
+
+.cart {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 45px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 17px;
+    right: 8px;
+
+}
+
+.num {
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.5s linear;
+
+}
+
+.num:hover {
+    color: #708090;
+    
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: azure;
+
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+
+}
+
+.button {
+    background-color:#2F4F4F;
+    color: azure;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    transition: all 0.7s linear;
+
+}
+
+.button:hover {
+    background-color: #FFFFF0;
+    color: #4d4b4b;
+
+}
+
+.shopper-container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center  ;
+    padding-top: 10px;
+}
+
+svg{
+    width: 35px;
+}
+
+.shopper-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.shopper-header .icon-cart {
+    position: relative;
+}
+
+.shopper-header .icon-cart span {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90%;
+    position: absolute;
+    top: 40%;
+    right: -30%;
+}
+
+.listproduct .item img {
+    width: 90%;
+    filter: drop-shadow(0 0px 10px #000000);
+}
+
+.listproduct {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.listproduct .item {
+    background-color:#3a6464;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.listproduct .item h2 {
+    font-weight: 600;
+    font-size: large;
+}
+
+.listproduct .item .price {
+    letter-spacing: 5px;
+    font-size: small;
+}
+
+.listproduct .item button {
+    background-color: #4d4b4b;
+    color: #FFFFF0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
