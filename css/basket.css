@@ -228,6 +228,12 @@ Basket
 
 */
 
+.basketTestButtonInk,
+.basketTestButtonDek {
+  color: #fff;
+  padding: 20px;
+}
+
 .basket-logo {
   color: #fff;
   text-align: center;

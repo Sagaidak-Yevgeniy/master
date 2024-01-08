@@ -336,11 +336,11 @@ slider
   opacity: 0.6;
   border-radius: 5px;
   transition-duration: all 0.5s;
-}
 
-.bar:hover {
-  opacity: 0.9;
-  transform: scale(1.1);
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
 }
 
 input[name="r"] {
@@ -407,10 +407,10 @@ main shop
 */
 
 .shop {
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 1.875em; /*30*/
 }
 
 .item {
@@ -418,73 +418,73 @@ main shop
   background: #ffffff;
   border: 2px solid #d42e24;
   border-radius: 5px;
-  margin: 10px 10px;
+  margin: 0.625em; /*10*/
   width: 160px;
   height: 260px;
+
+  &:hover {
+    box-shadow: 3px 3px 6px 0 rgba(255, 0, 0, 0.6),
+      -2px 3px 6px 0 rgba(255, 255, 255, 0.6);
+  }
 }
 
 .item > a > img {
-  padding: 2px;
+  padding: 0.125em; /*2*/
   border-radius: 5px;
   height: 60%;
   width: 100%;
 }
 
-.name > p {
-  font-size: 0.9375rem;
+#infoName {
+  flex: 1 1 auto;
+  font-size: 1.06rem; /*17*/
   font-weight: 600;
-  width: auto;
-  height: 50px;
-}
-
-.name {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.name > i {
-  display: block;
-  margin-top: 3px;
-  background: #ffffff;
-  border-radius: 50%;
-  border: 5px solid #ffffff;
-}
-
-.name > i:hover {
-  color: #d42e24;
-  border: 5px solid #292929;
-  background: #292929;
+  margin: 0.11em 0 0 0; /*2 0 0 0 */
 }
 
 .info {
-  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  padding: 0 0.3125em;
   color: #292929;
 }
 
-.item:hover {
-  box-shadow: 3px 3px 6px 0 rgba(255, 0, 0, 0.6),
-    -2px 3px 6px 0 rgba(255, 255, 255, 0.6);
+#cart-icon {
+  font-size: 1.25rem; /*20px*/
+  display: block;
+  margin: 0 0.15em 0.3em 0; /*0 3 6 0*/
+  background: #ffffff;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+
+  &:hover {
+    color: #d42e24;
+    border: 5px solid #292929;
+    background: #292929;
+  }
 }
 
-.item:hover .shop-img {
-  transform: translate(1.4);
-}
-
-.score {
+.rating {
   display: flex;
-  padding: 4px 10px;
-  margin-top: 3px;
+  align-items: center;
+  font-size: 1.25rem; /*20*/
+  margin: 0.5em 0 0 0;
 }
 
-.score > i {
+.rating > i {
   color: #f1aa11;
 }
 
-.coast {
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0 0 2px 8px;
+.priceCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: 650;
 }
 
 /*
@@ -547,7 +547,7 @@ h3 {
 
 .end-text {
   color: #fff;
-  margin:  0.6em 0 0.3125em 0;
+  margin: 0.6em 0 0.3125em 0;
 }
 
 .end-text > a {
